@@ -8,7 +8,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-RUN wget https://www.golangtc.com/static/go/1.9.2/go1.9.2.linux-amd64.tar.gz \
+RUN wget https://studygolang.com/dl/golang/go1.9.2.linux-amd64.tar.gz \
     && tar zxvf go1.9.2.linux-amd64.tar.gz -C /usr/local \
     && mkdir -p /app/go/src \
     && mkdir /app/go/pkg \
